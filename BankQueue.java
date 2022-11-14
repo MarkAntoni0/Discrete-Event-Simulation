@@ -1,9 +1,9 @@
 //////////////////////////////////////////////////////////////////////////////
-// Discrete Event Simulation - Mark Tharwat Antonio - AAST 19200164 - 2022
-// Supervision: Prof. Dr. Khaled Mahar / Eng. Sara Mohamed
-// 
-// This code generates 10 random number and simulate and bank queue
-// Inputs can be manipulated at line: 17 and 25
+// Discrete Event Simulation - Mark Tharwat Antonio - AAST 19200164 - 2022  //
+// Supervision: Prof. Dr. Khaled Mahar / Eng. Sara Mohamed                  //
+//                                                                          //
+// This code generates 10 random number and simulate and bank queue         //
+// Inputs can be manipulated at line: 15 and 23                             //
 //////////////////////////////////////////////////////////////////////////////
 import java.util.Random;
 import java.util.stream.IntStream;
