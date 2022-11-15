@@ -175,13 +175,13 @@ public class BankQueue {
 		
 		
 		//Initiating all the arrays to be used with the correct count of columns
-		arrivalTimes = new int[rows];
-		serviceBeginTimes = new int[rows];
-		waitingTimes = new int[rows];
-		customersInQueue = new int[rows];
-		serviceEndTimes = new int[rows];
+		arrivalTimes       = new int[rows];
+		serviceBeginTimes  = new int[rows];
+		waitingTimes       = new int[rows];
+		customersInQueue   = new int[rows];
+		serviceEndTimes    = new int[rows];
 		customerSpentTimes = new int[rows];
-		serverIdleTimes = new int[rows];
+		serverIdleTimes    = new int[rows];
 
 		
 		//Creating a table to include our rows [single arrays] in
