@@ -171,7 +171,7 @@ public class BankQueue {
 		printCumulative();          //Printing cumulative tables
 		generateRandom();           //Generate 10 random numbers
 		calcInterArrival();         //Calculate the interarrival time based on the random numbers
-		calcServiceTime();			//Calculate the service time based on the random numbers
+		calcServiceTime();	    //Calculate the service time based on the random numbers
 		
 		
 		//Initiating all the arrays to be used with the correct count of columns
