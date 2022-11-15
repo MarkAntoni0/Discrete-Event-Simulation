@@ -43,15 +43,15 @@ public class BankQueue {
 	
 	//These are the values to be used in the final calculations
 	//All initiated to 0 and will be updated once the table is constructed
-	static int InterArrivalTimeSum = 0;
-	static int ArrivalTimeSum = 0;
-	static int ServiceTimeSum = 0;
-	static int ServiceBeginTimeSum = 0;
-	static int WhoWaitSum = 0;
-	static int CustomerInQueueSum = 0;
-	static int ServiceEndTimeSUm = 0;
+	static int InterArrivalTimeSum       = 0;
+	static int ArrivalTimeSum            = 0;
+	static int ServiceTimeSum            = 0;
+	static int ServiceBeginTimeSum       = 0;
+	static int WhoWaitSum                = 0;
+	static int CustomerInQueueSum        = 0;
+	static int ServiceEndTimeSUm         = 0;
 	static int CustomerSpendsInSystemSum = 0;
-	static int ServerIdleTime = 0;
+	static int ServerIdleTime            = 0;
 
 	//The following function aims to build the cumulative values
 	public static void calculateCumulative() {
